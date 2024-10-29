@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  color: #4e4e4e;
+  color: #071952;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -56,7 +56,7 @@ ul li {
 .custom-list-icon li::before, .list-arrow-right li::before {
   position: absolute;
   left: 0;
-  color: #4e4e4e;
+  color: #384a85;
   font-family: "Ionicons";
 }
 
@@ -71,13 +71,13 @@ ul li {
   display: inline-block;
   height: 32px;
   width: 32px;
-  color: #4e4e4e;
+  color: #384a85;
 }
 .social-block li a i {
   font-size: 1.5em;
 }
 .social-block li a:hover, .social-block li a:focus {
-  color: #000;
+  color: #071952;
 }
 
 .btn.active.focus,
@@ -90,9 +90,9 @@ ul li {
 }
 
 .btn {
-  border: 0;
+  border: 1px;
   border-radius: 0;
-  padding: 6px 28px;
+  padding: 12px 34px;
   text-transform: uppercase;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
@@ -120,7 +120,7 @@ ul li {
 }
 .form-control:focus {
   box-shadow: none;
-  border-color: #ccc;
+  border-color: #cccccc;
   background-color: #f8f8f8;
 }
 
@@ -140,7 +140,7 @@ ul li {
 }
 
 .section-title {
-  color: #313131;
+  color: #071952;
   letter-spacing: 1px;
   margin: 0 0 20px;
   text-transform: uppercase;
@@ -191,21 +191,33 @@ ul li {
  * 3.4 Helper Class: button
  */
 .btn-white {
-  color: #000;
-  background-color: #fff;
+  color: #071952;
+  background-color: #b6eef3;
+  border-color: #0095a3;
+  border-width: 1px solid;
+  border-radius: 5px;
 }
 .btn-white:hover, .btn-white:focus {
-  color: #000;
-  background-color: #fff;
+  color: #071952;
+  background-color: #0095a3;
+  border-color: #313131;
+  border-width: 1px solid;
+
 }
 
 .btn-black {
   color: #fff;
   background-color: #000;
+  border-color: #313131;
+  border-width: 1px;
+
 }
 .btn-black:hover, .btn-black:focus {
   color: #fff;
   background-color: #000;
+  border-color: #313131;
+  border-width: 1px;
+
 }
 
 /* 
@@ -231,19 +243,16 @@ ul li {
 }
 
 .bg-image-2 {
-  background: url(../images/backgrounds/bg-2.jpg) no-repeat center bottom/cover;
-}
-.bg-image-2::before {
-  background-color: rgba(0, 0, 0, 0.7);
+  background: url(../images/backgrounds/dli_affiche2024.jpg) no-repeat center bottom/cover;
 }
 
 @media (min-width: 768px) {
   .section {
-    padding: 90px 0;
+    padding: 50px 0;
   }
 
   .section-title {
-    color: #313131;
+    color: #071952;
     letter-spacing: 1px;
     margin: 0 0 60px;
     text-transform: uppercase;
@@ -326,7 +335,7 @@ ul li {
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../images/backgrounds/zelidj_blue.png) no-repeat center center/cover;
+  background: url(../images/backgrounds/zelidj_blue_circle.png) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
