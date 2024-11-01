@@ -335,7 +335,7 @@ ul li {
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../images/backgrounds/zelidj_blue_circle.png) no-repeat center center/cover;
+  background: url(../images/backgrounds/zelidj_blue_square.png) no-repeat center center/cover;
   display: table;
 }
 .site-header::before {
@@ -451,13 +451,13 @@ ul li {
 }
 
 #countdown {
-  font-size: 2em;
+  font-size: 1em;
   margin-top: 20px;
 }
 
 #countdown span {
   display: inline-block;
-  min-width: 80px;
+  min-width: 50px;
   background: #222;
   color: #fff;
   padding: 10px;
@@ -465,6 +465,32 @@ ul li {
   margin: 0 5px;
 }
 
+@media (min-width: 768px) {
+  #countdown {
+    font-size: 1.2em; /* Medium screens */
+  }
+  #countdown span{
+    min-width: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #countdown {
+    font-size: 1.6em; /* Larger screens */
+  }
+  #countdown span{
+    min-width: 70px;
+  }
+}
+
+@media (min-width: 1440px) {
+  #countdown {
+    font-size: 2em; /* Extra large screens */
+  }
+  #countdown span{
+    min-width: 80px;
+  }
+}
 
 /* 
  * 6.6 Section: Schedule
@@ -488,7 +514,7 @@ ul li {
 }
 
 .logo {
-  width: 200px; /* Adjust width as needed */
+  width: 150px; /* Adjust width as needed */
   height: auto; /* Maintain aspect ratio */
 }
 
